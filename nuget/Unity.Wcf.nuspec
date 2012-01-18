@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>Unity.Wcf</id>
+    <version>1.0.0</version>
+    <authors>Paul Hiles</authors>
+    <owners>DevTrends</owners>
+    <licenseUrl>http://unitywcf.codeplex.com/license</licenseUrl>
+    <projectUrl>http://unitywcf.codeplex.com/</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Unity.Wcf is a library that allows simple Integration of Microsoft's Unity IoC container with WCF. This project includes a bespoke InstanceProvider that creates a child container per client connection and disposes of all registered IDisposable instances once the connection is terminated.</description>
+    <tags>wcf unity ioc di</tags>
+	<dependencies>
+      <dependency id="Unity" version="2.1.505.0" />
+    </dependencies>
+	<frameworkAssemblies>
+		<frameworkAssembly assemblyName="System.ServiceModel.Activation" />
+	</frameworkAssemblies>
+  </metadata>
+</package>
