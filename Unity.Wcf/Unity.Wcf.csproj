@@ -68,8 +68,13 @@
     <Compile Include="UnityServiceHostFactory.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="content\WcfServiceFactory.cs.pp" />
     <None Include="packages.config" />
+    <None Include="Unity.Wcf.nuspec" />
     <None Include="Unity.Wcf.snk" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="content\Unity.Wcf.README.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
