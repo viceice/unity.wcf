@@ -37,7 +37,7 @@ namespace Unity.Wcf
                 foreach (var contractDescription in ImplementedContracts.Values)
                 {
                     contractDescription.Behaviors.Add(contractBehavior);
-                }                
+                }
             }
         }
 
