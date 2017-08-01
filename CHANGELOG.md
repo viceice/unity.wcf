@@ -7,6 +7,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 ## [Unreleased]
 ### Changed
 - Updated project urls
+- Updated Unity to 4.0.1
 
 ## [2.0.0] - 2017-06-20
 ### Changed
