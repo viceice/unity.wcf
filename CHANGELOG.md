@@ -21,7 +21,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 ### Changed
 - Simplified packaging.
 
-## [1.0.0] - 2012-01-18
+## 1.0.0 - 2012-01-18
 ### Added
 - Initial release from @devtrends
 
