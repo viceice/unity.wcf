@@ -22,16 +22,16 @@ namespace Unity.Wcf
         {
             if (_childContainer != null)
             {
-                _childContainer.Dispose();                
+                _childContainer.Dispose();
             }
         }
 
         public void Attach(InstanceContext owner)
-        {            
+        {
         }
 
         public void Detach(InstanceContext owner)
-        {            
-        }        
+        {
+        }
     }
 }

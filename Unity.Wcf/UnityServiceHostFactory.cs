@@ -16,6 +16,6 @@ namespace Unity.Wcf
             ConfigureContainer(container);
 
             return new UnityServiceHost(container, serviceType, baseAddresses);
-        }        
-    }    
+        }
+    }
 }

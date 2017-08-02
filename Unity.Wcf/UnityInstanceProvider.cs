@@ -10,7 +10,7 @@ namespace Unity.Wcf
     {
         private readonly IUnityContainer _container;
         private readonly Type _contractType;
-        
+
         public UnityInstanceProvider(IUnityContainer container, Type contractType)
         {
             if (container == null)
@@ -42,7 +42,7 @@ namespace Unity.Wcf
 
         public void ReleaseInstance(InstanceContext instanceContext, object instance)
         {
-            instanceContext.Extensions.Find<UnityInstanceContextExtension>().DisposeOfChildContainer();            
-        }        
+            instanceContext.Extensions.Find<UnityInstanceContextExtension>().DisposeOfChildContainer();
+        }
     }
 }
