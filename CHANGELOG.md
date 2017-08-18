@@ -5,6 +5,8 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
+
+## [3.0.0] - 2017-08-18
 ### Changed
 - Updated project urls
 - Updated Unity to 4.0.1
@@ -25,6 +27,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 ### Added
 - Initial release from @devtrends
 
-[Unreleased]: https://github.com/ViceIce/unity.wcf/compare/v2.0.0...HEAD
+[Unreleased]: https://github.com/ViceIce/unity.wcf/compare/v3.0.0...HEAD
+[3.0.0]: https://github.com/ViceIce/unity.wcf/compare/v2.0.0...v3.0.0
 [2.0.0]: https://github.com/ViceIce/unity.wcf/compare/v1.1.0...v2.0.0
 [1.1.0]: https://github.com/ViceIce/unity.wcf/compare/v1.0.0...v1.1.0
