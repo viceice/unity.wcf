@@ -35,11 +35,6 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <Content Include="Unity.Wcf.README.txt" />
-      <Content Include="WcfServiceFactory.cs.pp" />
-    </ItemGroup>
-
-    <ItemGroup>
         <Reference Include="System.ServiceModel" />
         <Reference Include="System.ServiceModel.Activation" />
         <PackageReference Include="Unity.Container">
