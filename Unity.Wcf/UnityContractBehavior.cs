@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.ServiceModel.Channels;
 using System.ServiceModel.Description;
 using System.ServiceModel.Dispatcher;
@@ -11,12 +11,7 @@ namespace Unity.Wcf
 
         public UnityContractBehavior(IInstanceProvider instanceProvider)
         {
-            if (instanceProvider == null)
-            {
-                throw new ArgumentNullException("instanceProvider");
-            }
-
-            _instanceProvider = instanceProvider;
+            _instanceProvider = instanceProvider ?? throw new ArgumentNullException("instanceProvider");
         }
 
         public void AddBindingParameters(ContractDescription contractDescription, ServiceEndpoint endpoint, BindingParameterCollection bindingParameters)

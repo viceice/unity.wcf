@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.ServiceModel;
 using System.ServiceModel.Channels;
 using System.ServiceModel.Dispatcher;
@@ -12,18 +12,8 @@ namespace Unity.Wcf
 
         public UnityInstanceProvider(IUnityContainer container, Type contractType)
         {
-            if (container == null)
-            {
-                throw new ArgumentNullException("container");
-            }
-
-            if (contractType == null)
-            {
-                throw new ArgumentNullException("contractType");
-            }
-
-            _container = container;
-            _contractType = contractType;
+            _container = container ?? throw new ArgumentNullException("container");
+            _contractType = contractType ?? throw new ArgumentNullException("contractType");
         }
 
         public object GetInstance(InstanceContext instanceContext, Message message)
