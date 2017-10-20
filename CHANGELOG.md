@@ -7,6 +7,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 ## [Unreleased]
 ### Changed
 - Migrated Unity to Unity.Container 5.0.0
+- Migrated to dotnet sdk
 
 
 ## [3.0.0] - 2017-08-18
