@@ -5,6 +5,9 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
+### Changed
+- Migrated Unity to Unity.Container 5.0.0
+
 
 ## [3.0.0] - 2017-08-18
 ### Changed
