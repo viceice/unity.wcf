@@ -1,7 +1,6 @@
 ﻿using System;
 using System.ServiceModel;
 using System.ServiceModel.Description;
-using Microsoft.Practices.Unity;
 
 namespace Unity.Wcf
 {

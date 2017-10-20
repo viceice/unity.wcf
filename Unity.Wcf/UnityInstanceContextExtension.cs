@@ -1,6 +1,5 @@
 ﻿using System;
 using System.ServiceModel;
-using Microsoft.Practices.Unity;
 
 namespace Unity.Wcf
 {
@@ -20,10 +19,7 @@ namespace Unity.Wcf
 
         public void DisposeOfChildContainer()
         {
-            if (_childContainer != null)
-            {
-                _childContainer.Dispose();
-            }
+            _childContainer?.Dispose();
         }
 
         public void Attach(InstanceContext owner)

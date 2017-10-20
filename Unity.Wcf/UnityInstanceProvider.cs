@@ -2,7 +2,6 @@
 using System.ServiceModel;
 using System.ServiceModel.Channels;
 using System.ServiceModel.Dispatcher;
-using Microsoft.Practices.Unity;
 
 namespace Unity.Wcf
 {
