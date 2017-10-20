@@ -49,14 +49,6 @@
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
-    <Reference Include="Unity.Abstractions, Version=2.0.0.0, Culture=neutral, PublicKeyToken=6d32ff45e0ccc69f, processorArchitecture=MSIL">
-      <HintPath>..\packages\Unity.Abstractions.2.0.1\lib\net45\Unity.Abstractions.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="Unity.Container, Version=5.0.0.0, Culture=neutral, PublicKeyToken=489b6accfaf20ef0, processorArchitecture=MSIL">
-      <HintPath>..\packages\Unity.Container.5.0.0\lib\net45\Unity.Container.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -69,12 +61,16 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="content\WcfServiceFactory.cs.pp" />
-    <None Include="packages.config" />
     <None Include="Unity.Wcf.nuspec" />
     <None Include="Unity.Wcf.snk" />
   </ItemGroup>
   <ItemGroup>
     <None Include="content\Unity.Wcf.README.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Unity.Container">
+      <Version>5.0.0</Version>
+    </PackageReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
