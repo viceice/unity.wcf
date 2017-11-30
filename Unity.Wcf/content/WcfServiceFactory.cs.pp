@@ -1,4 +1,4 @@
-﻿using Microsoft.Practices.Unity;
+﻿using Unity;
 using Unity.Wcf;
 
 namespace $rootnamespace$
@@ -12,5 +12,5 @@ namespace $rootnamespace$
             //    .RegisterType<IService1, Service1>()
             //    .RegisterType<DataContext>(new HierarchicalLifetimeManager());
         }
-    }    
+    }
 }
