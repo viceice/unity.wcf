@@ -5,10 +5,11 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
+
+## [4.0.0] - 2017-12-06
 ### Changed
 - Migrated Unity to Unity.Container 5.0.0
 - Migrated to dotnet sdk
-
 
 ## [3.0.0] - 2017-08-18
 ### Changed
@@ -31,7 +32,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 ### Added
 - Initial release from @devtrends
 
-[Unreleased]: https://github.com/ViceIce/unity.wcf/compare/v3.0.0...HEAD
+[Unreleased]: https://github.com/ViceIce/unity.wcf/compare/v4.0.0...HEAD
+[4.0.0]: https://github.com/ViceIce/unity.wcf/compare/v3.0.0...v4.0.0
 [3.0.0]: https://github.com/ViceIce/unity.wcf/compare/v2.0.0...v3.0.0
 [2.0.0]: https://github.com/ViceIce/unity.wcf/compare/v1.1.0...v2.0.0
 [1.1.0]: https://github.com/ViceIce/unity.wcf/compare/v1.0.0...v1.1.0
