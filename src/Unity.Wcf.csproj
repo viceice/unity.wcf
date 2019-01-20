@@ -20,17 +20,16 @@
     <AssemblyOriginatorKeyFile>package.snk</AssemblyOriginatorKeyFile>
     <DelaySign>false</DelaySign>
     <RootNamespace>Unity.Wcf</RootNamespace>
+    <TargetFrameworks>net45;net46;net47</TargetFrameworks>
   </PropertyGroup>
 
   <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <TargetFrameworks>net45;net46;net47</TargetFrameworks>
     <DebugType>Portable</DebugType>
   </PropertyGroup>
 
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
-    <TargetFrameworks>net45;net47</TargetFrameworks>
     <DebugType>Full</DebugType>
   </PropertyGroup>
 
@@ -45,6 +44,14 @@
 
   <ItemGroup Condition="!Exists('$(UnityContainer)')">
     <PackageReference Include="Unity.Container" Version="$(UnityContainerVersion)" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="System.ServiceModel.Activation" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.ServiceModel.Primitives" Version="4.5.3" />
   </ItemGroup>
 
 </Project>
